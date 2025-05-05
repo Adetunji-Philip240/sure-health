@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 p-5">
         <div>
           <h2 className="text-2xl ">
-            <a href="/" className="text-blue-500 font-bold" id="logo">
+            <Link href="/" className="text-blue-500 font-bold" id="logo">
               Sure-Health_Care
-            </a>
+            </Link>
           </h2>
           <small className="w-3/4 block mt-3">
             Online platform for healthcare services that make treatments closer

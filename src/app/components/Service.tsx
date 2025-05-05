@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState } from "react";
+import Image from "next/image";
 
 const Service = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -47,7 +48,13 @@ const Service = () => {
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-3 service">
         <div className="bg-blue-300 w-80 h-80 rounded-full p-5 mx-auto text-center mb-4 box-shadow2">
-          <img src="/images/med.png" className="mx-auto" width={50} alt="" />
+          <Image
+            src="/images/med.png"
+            className="mx-auto"
+            width={50}
+            height={50}
+            alt="icon"
+          />
           <p>Diagnosis and Prescription</p>
           <small>
             We offer effective diagnostic systems to help you assess your
@@ -57,7 +64,13 @@ const Service = () => {
           </small>
         </div>
         <div className="bg-blue-300 w-80 h-80 rounded-full p-5 mx-auto text-center mb-4 box-shadow2">
-          <img src="/images/med2.png" className="mx-auto" width={50} alt="" />
+          <Image
+            src="/images/med2.png"
+            className="mx-auto"
+            width={50}
+            height={50}
+            alt="icon"
+          />
           <p>Daily Health Tips</p>
           <small>
             We provide daily health tips to help you improve your well-being and
@@ -67,7 +80,13 @@ const Service = () => {
           </small>
         </div>
         <div className="bg-blue-300 w-80 h-80 rounded-full p-5 mx-auto text-center box-shadow2">
-          <img src="/images/med3.png" className="mx-auto" width={50} alt="" />
+          <Image
+            src="/images/med3.png"
+            className="mx-auto"
+            width={50}
+            height={50}
+            alt="icon"
+          />
           <p>Direct Medical Consultation</p>
           <small>
             We offer direct medical consultations to connect you with the best
@@ -82,11 +101,13 @@ const Service = () => {
         <div className="container mt-5 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <img
+              <Image
                 src="/images/doc-pat.jpg"
                 className="mx-auto md:w-[90%] w-[80%] rounded-lg"
                 width={50}
-                alt=""
+                height={50}
+                alt="icon"
+                layout="responsive"
               />
             </div>
             <div className="text-white">

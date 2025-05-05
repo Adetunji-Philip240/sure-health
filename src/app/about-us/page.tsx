@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "./style.css";
-
+import Image from "next/image";
 import Footer from "../components/Footer";
 import Slider from "react-slick";
 
@@ -46,10 +46,13 @@ const page = () => {
         <div className="block mx-auto w-3/4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="md:mt-40 lg:mt-20">
-              <img
+              <Image
                 src="/images/about.jpg"
                 className="w-full rounded-lg"
                 alt="about"
+                width={500}
+                height={300}
+                layout="responsive"
               />
             </div>
             <div>
@@ -67,9 +70,10 @@ const page = () => {
               <div className="mt-5">
                 <div className="grid grid-cols-4">
                   <div className="col-span-1">
-                    <img
+                    <Image
                       src="/icons/heart-rate.png"
                       width={50}
+                      height={50}
                       className="float-right mx-4"
                       alt="heart-rate"
                     />
@@ -88,9 +92,10 @@ const page = () => {
                 </div>
                 <div className="grid grid-cols-4 mt-3">
                   <div className="col-span-1">
-                    <img
+                    <Image
                       src="/icons/medical-team.png"
                       width={50}
+                      height={50}
                       className="float-right mx-4"
                       alt="heart-rate"
                     />
@@ -120,9 +125,10 @@ const page = () => {
             <div className="box-shadow2 p-5 transition-transform duration-300 hover:scale-105">
               <div className="grid grid-cols-4 mt-3">
                 <div className="col-span-1">
-                  <img
+                  <Image
                     src="/icons/heart.png"
                     width={50}
+                    height={50}
                     className="float-right mx-4"
                     alt="heart-rate"
                   />
@@ -140,9 +146,10 @@ const page = () => {
             <div className="box-shadow2 p-5 transition-transform duration-300 hover:scale-105">
               <div className="grid grid-cols-4 mt-3">
                 <div className="col-span-1">
-                  <img
+                  <Image
                     src="/icons/healthy.png"
                     width={50}
+                    height={50}
                     className="float-right mx-4"
                     alt="heart-rate"
                   />
@@ -160,9 +167,10 @@ const page = () => {
             <div className="box-shadow2 p-5 transition-transform duration-300 hover:scale-105">
               <div className="grid grid-cols-4 mt-3">
                 <div className="col-span-1">
-                  <img
+                  <Image
                     src="/icons/checkup.png"
                     width={50}
+                    height={50}
                     className="float-right mx-4"
                     alt="heart-rate"
                   />
@@ -179,9 +187,10 @@ const page = () => {
             <div className="box-shadow2 p-5 transition-transform duration-300 hover:scale-105">
               <div className="grid grid-cols-4 mt-3">
                 <div className="col-span-1">
-                  <img
+                  <Image
                     src="/icons/medical-team2.png"
                     width={50}
+                    height={50}
                     className="float-right mx-4"
                     alt="heart-rate"
                   />
@@ -204,10 +213,13 @@ const page = () => {
         <div className="block mx-auto w-3/4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <img
+              <Image
+                width={500}
+                height={300}
                 src="/images/aboutUS.jpg"
                 className="w-full rounded-lg"
                 alt="about"
+                layout="responsive"
               />
             </div>
             <div>
@@ -250,9 +262,10 @@ const page = () => {
           <Slider {...settings}>
             <div className="text-center">
               <div className="bg-blue-700 p-10 rounded-3xl transition-transform duration-300 hover:scale-105 hover:bg-blue-500 box-shadow3 block w-80 mx-auto">
-                <img
+                <Image
                   src="/images/doctor (1).jpg"
                   width={300}
+                  height={300}
                   className="block mx-auto"
                   alt="doc"
                 />
@@ -265,9 +278,10 @@ const page = () => {
             </div>
             <div className="text-center">
               <div className="bg-blue-700 p-10 rounded-3xl  transition-transform duration-300 hover:scale-105 hover:bg-blue-500 box-shadow3 block w-80 mx-auto">
-                <img
+                <Image
                   src="/images/doctor (2).jpg"
                   width={300}
+                  height={300}
                   className="block mx-auto"
                   alt="doc"
                 />
@@ -281,9 +295,10 @@ const page = () => {
 
             <div className="text-center">
               <div className="bg-blue-700 p-10 rounded-3xl transition-transform duration-300 hover:scale-105 hover:bg-blue-500 box-shadow3 block w-80 mx-auto">
-                <img
+                <Image
                   src="/images/doctor (2).jpg"
                   width={300}
+                  height={300}
                   className="block mx-auto"
                   alt="doc"
                 />
@@ -297,9 +312,10 @@ const page = () => {
 
             <div className="text-center">
               <div className="bg-blue-700 p-10 rounded-3xl  transition-transform duration-300 hover:scale-105 hover:bg-blue-500 box-shadow3 block w-80 mx-auto">
-                <img
+                <Image
                   src="/images/doctor (3).jpg"
                   width={300}
+                  height={300}
                   className="block mx-auto"
                   alt="doc"
                 />

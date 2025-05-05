@@ -17,9 +17,9 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <a href="/" className="text-black" id="logo">
+                <Link href="/" className="text-black" id="logo">
                   Sure-Health_Care
-                </a>
+                </Link>
               </div>
             </div>
             <div className="flex md:hidden">

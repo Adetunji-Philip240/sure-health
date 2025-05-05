@@ -2,6 +2,7 @@
 
 import React from "react";
 import Slider from "react-slick";
+import Image from "next/image";
 
 const Customer = () => {
   const settings = {
@@ -81,10 +82,11 @@ const Customer = () => {
           <Slider {...settings}>
             {slides.map((slide, index) => (
               <div key={index}>
-                <img
+                <Image
                   src={slide.image}
                   alt={`Slide ${index}`}
-                  style={{ width: "100px" }}
+                  width={100}
+                  height={100}
                   className="block mx-auto"
                 />
                 <div

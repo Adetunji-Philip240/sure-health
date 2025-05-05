@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Doctors = () => {
   return (
@@ -15,9 +16,10 @@ const Doctors = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 mt-24">
         <div className="text-center">
           <div className="bg-blue-300 p-10 rounded-3xl w-80 block mx-auto mb-4">
-            <img
+            <Image
               src="/images/doctor (1).jpg"
               width={300}
+              height={300}
               className="block mx-auto"
               alt="doc"
             />
@@ -31,9 +33,10 @@ const Doctors = () => {
         </div>
         <div className="text-center">
           <div className="bg-blue-300 p-10 rounded-3xl w-80 block mx-auto mb-4">
-            <img
+            <Image
               src="/images/doctor (2).jpg"
               width={300}
+              height={300}
               className="block mx-auto"
               alt="doc"
             />
@@ -47,9 +50,10 @@ const Doctors = () => {
         </div>
         <div className="text-center">
           <div className="bg-blue-300 p-10 rounded-3xl w-80 block mx-auto mb-4">
-            <img
+            <Image
               src="/images/doctor (3).jpg"
               width={300}
+              height={300}
               className="block mx-auto"
               alt="doc"
             />

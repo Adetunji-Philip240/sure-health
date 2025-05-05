@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Home_Page = () => {
   return (
@@ -34,7 +35,13 @@ const Home_Page = () => {
           </div>
         </div>
         <div>
-          <img src="/images/doc.png" alt="" />
+          <Image
+            src="/images/doc.png"
+            alt="Doc"
+            width={500}
+            height={300}
+            layout="responsive"
+          />
         </div>
       </div>
     </div>
