@@ -1,0 +1,25 @@
+.about-main {
+  position: relative;
+  height: 50vh;
+  background-image: url("/images/nurses.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.about-main-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(96, 165, 250, 0.5);
+}
+.about-main-content {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  z-index: 1;
+}
