@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const ContactTeam = () => {
@@ -11,11 +12,11 @@ const ContactTeam = () => {
             or concerns regarding our health services. Feel free to reach out —
             your well-being is our priority.
           </p>
-          <a href="/">
+          <Link href="/">
             <button className="block mx-auto mt-3 btn btn-dash">
               Get in Touch
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
