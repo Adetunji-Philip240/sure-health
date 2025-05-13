@@ -39,7 +39,11 @@ const Footer = () => {
               <small>Diagnostic System</small>
             </li>
             <li>
-              <small>Our Services</small>
+              <small>
+                <Link href="/services" className="">
+                  Our Services
+                </Link>
+              </small>
             </li>
             <li>
               <small>Health Tips</small>
