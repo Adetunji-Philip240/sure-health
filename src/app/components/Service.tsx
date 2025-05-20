@@ -2,6 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Service = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -35,7 +36,9 @@ const Service = () => {
         "Stay informed and feel your best with our daily health tips. From nutrition and fitness to mental wellness and preventive care, we share simple, practical advice to help you lead a healthier lifestyle—one day at a time. Your journey to better health starts here!",
       button: (
         <button className="bg-blue-400 p-3 rounded-md text-white text-1xl font-bold">
-          Get Health Tips
+          <Link href="/health-tips" className="">
+            Get Health Tips
+          </Link>
         </button>
       ),
     },

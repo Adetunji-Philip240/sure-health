@@ -75,7 +75,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/" className="">
+                  <Link href="/health-tips" className="">
                     Health Tips
                   </Link>
                 </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
               <Link href="/services" className="block">
                 Service
               </Link>
-              <Link href="/" className="block">
+              <Link href="/health-tips" className="block">
                 Health Tips
               </Link>
               <div className="flex space-x-4">

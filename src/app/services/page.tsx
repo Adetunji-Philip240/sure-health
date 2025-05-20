@@ -47,7 +47,7 @@ const page = () => {
                 intended to offer initial insights and should not replace
                 consultation with a qualified healthcare professional.
               </p>
-              <Link href="/" className="float-start">
+              <Link href="/diagnosis" className="float-start">
                 <button className="block mx-auto mt-3 btn btn-dash mb-3">
                   Diagnose Yourself Now!
                 </button>
@@ -72,7 +72,7 @@ const page = () => {
                   for general guidance and do not replace personalized medical
                   advice from a licensed healthcare professional.
                 </p>
-                <Link href="/" className="float-start">
+                <Link href="/health-tips" className="float-start">
                   <button className="block mx-auto mt-3 btn btn-dash mb-3">
                     Get Tips Now!
                   </button>
