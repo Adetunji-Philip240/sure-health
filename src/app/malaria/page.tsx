@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import "./style.css";
 import Image from "next/image";
 import Footer from "../components/Footer";
-import Link from "next/link";
 
 const page = () => {
   return (
