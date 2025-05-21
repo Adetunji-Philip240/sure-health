@@ -13,7 +13,7 @@ const page = () => {
       <div className="service-main">
         <div className="service-main-overlay"></div>
         <div className="service-main-content">
-          <h2 className="text-6xl font-bold">HYPERTENSION</h2>
+          <h2 className="text-4xl font-bold">HYPERTENSION</h2>
         </div>
       </div>
 
