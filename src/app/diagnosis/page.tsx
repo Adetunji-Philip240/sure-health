@@ -20,8 +20,8 @@ const page = () => {
 
       <div className="mt-5 text-center">
         <h3 className="text-2xl font-bold">Use Any Of Our Diagnostic System</h3>
-        <div className="block mx-auto w-3/4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 box-shadow3 ">
+        <div className="block w-3/4 mx-auto">
+          <div className="grid grid-cols-1 gap-4 mt-6 sm:grid-cols-2 box-shadow3 ">
             <div className="md:mt-16 lg:mt-0">
               <Image
                 src="/images/malaria.jpg"
@@ -32,8 +32,8 @@ const page = () => {
                 layout="responsive"
               />
             </div>
-            <div className="text-start lg:mt-10 pr-5 pl-5 ">
-              <h2 className="font-bold text-1xl text-blue-600">
+            <div className="pl-5 pr-5 text-start lg:mt-10 ">
+              <h2 className="font-bold text-blue-600 text-1xl">
                 Malaria Diagnosis
               </h2>
               <p>
@@ -44,8 +44,8 @@ const page = () => {
                 Simple, fast, and easy to use — it’s a smart first step before
                 seeing a doctor.
               </p>
-              <Link href="/diagnosis" className="float-start">
-                <button className="block mx-auto mt-3 btn btn-dash mb-3">
+              <Link href="/malaria_diagnosis" className="float-start">
+                <button className="block mx-auto mt-3 mb-3 btn btn-dash">
                   Diagnose Yourself Now!
                 </button>
               </Link>
