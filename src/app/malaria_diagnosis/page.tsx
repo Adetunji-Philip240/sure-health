@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Footer from "../components/Footer";
 
 type Question = {
   id: number;
@@ -212,6 +213,8 @@ const DiagnosisPage = () => {
           {warning}
         </div>
       )}
+
+      <Footer />
     </div>
   );
 };
